@@ -1,0 +1,9 @@
+C:\Users\bebev\OneDrive\Área de Trabalho\Manager\src\3 - Manager.Services\bin\Debug\netcoreapp3.1\Manager.Services.deps.json
+C:\Users\bebev\OneDrive\Área de Trabalho\Manager\src\3 - Manager.Services\bin\Debug\netcoreapp3.1\Manager.Services.dll
+C:\Users\bebev\OneDrive\Área de Trabalho\Manager\src\3 - Manager.Services\bin\Debug\netcoreapp3.1\Manager.Services.pdb
+C:\Users\bebev\OneDrive\Área de Trabalho\Manager\src\3 - Manager.Services\obj\Debug\netcoreapp3.1\Manager.Services.csprojAssemblyReference.cache
+C:\Users\bebev\OneDrive\Área de Trabalho\Manager\src\3 - Manager.Services\obj\Debug\netcoreapp3.1\Manager.Services.AssemblyInfoInputs.cache
+C:\Users\bebev\OneDrive\Área de Trabalho\Manager\src\3 - Manager.Services\obj\Debug\netcoreapp3.1\Manager.Services.AssemblyInfo.cs
+C:\Users\bebev\OneDrive\Área de Trabalho\Manager\src\3 - Manager.Services\obj\Debug\netcoreapp3.1\Manager.Services.csproj.CoreCompileInputs.cache
+C:\Users\bebev\OneDrive\Área de Trabalho\Manager\src\3 - Manager.Services\obj\Debug\netcoreapp3.1\Manager.Services.dll
+C:\Users\bebev\OneDrive\Área de Trabalho\Manager\src\3 - Manager.Services\obj\Debug\netcoreapp3.1\Manager.Services.pdb

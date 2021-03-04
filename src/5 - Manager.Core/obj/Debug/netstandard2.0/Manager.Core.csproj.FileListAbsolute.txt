@@ -1,0 +1,9 @@
+C:\Users\bebev\OneDrive\Área de Trabalho\Manager\src\5 - Manager.Core\bin\Debug\netstandard2.0\Manager.Core.deps.json
+C:\Users\bebev\OneDrive\Área de Trabalho\Manager\src\5 - Manager.Core\bin\Debug\netstandard2.0\Manager.Core.dll
+C:\Users\bebev\OneDrive\Área de Trabalho\Manager\src\5 - Manager.Core\bin\Debug\netstandard2.0\Manager.Core.pdb
+C:\Users\bebev\OneDrive\Área de Trabalho\Manager\src\5 - Manager.Core\obj\Debug\netstandard2.0\Manager.Core.csprojAssemblyReference.cache
+C:\Users\bebev\OneDrive\Área de Trabalho\Manager\src\5 - Manager.Core\obj\Debug\netstandard2.0\Manager.Core.AssemblyInfoInputs.cache
+C:\Users\bebev\OneDrive\Área de Trabalho\Manager\src\5 - Manager.Core\obj\Debug\netstandard2.0\Manager.Core.AssemblyInfo.cs
+C:\Users\bebev\OneDrive\Área de Trabalho\Manager\src\5 - Manager.Core\obj\Debug\netstandard2.0\Manager.Core.csproj.CoreCompileInputs.cache
+C:\Users\bebev\OneDrive\Área de Trabalho\Manager\src\5 - Manager.Core\obj\Debug\netstandard2.0\Manager.Core.dll
+C:\Users\bebev\OneDrive\Área de Trabalho\Manager\src\5 - Manager.Core\obj\Debug\netstandard2.0\Manager.Core.pdb

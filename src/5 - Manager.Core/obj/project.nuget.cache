@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "YM8fiOMUiidDZq47MkR4AqG1VH1dHuk7QVuGxZqleJNRYTIcPkbR3knHHr177w8vfmSZ6+Xeqz+RXFBjVJm8CQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\bebev\\OneDrive\\Área de Trabalho\\Manager\\src\\5 - Manager.Core\\Manager.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\bebev\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\bebev\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
