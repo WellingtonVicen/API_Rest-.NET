@@ -8,7 +8,7 @@ namespace Manager.Infra.Interfaces
     {
         Task<T> Create(T obj);
         Task<T> Update(T obj);
-        Task<T> Remove(long obj);
+        Task<T> Remove(long id);
         Task<T> Get(long id);
         Task<List<T>> Get();
         

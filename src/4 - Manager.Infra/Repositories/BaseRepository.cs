@@ -63,21 +63,6 @@ namespace Manager.Infra.Repositories
                                    .ToListAsync();
         }
 
-        public override bool Equals(object obj)
-        {
-            return base.Equals(obj);
-        }
-
-        public override int GetHashCode()
-        {
-            return base.GetHashCode();
-        }
-
-        public override string ToString()
-        {
-            return base.ToString();
-        }
-
         Task<T> IBaseRepository<T>.Remove(long id)
         {
             throw new NotImplementedException();

@@ -10,7 +10,7 @@ namespace Manager.Domain.Entities
         public string Nome { get; private set; }
         public string Email { get; private set; }
         public string Senha { get; private set; }
-       // public object Name { get; internal set; }
+      
 
         //EF
         protected User() { }
@@ -21,6 +21,8 @@ namespace Manager.Domain.Entities
             Email = email;
             Senha = senha;
             _errors = new List<string>();
+
+            Validate();
         }
 
         public void ChangeName(string nome)
@@ -52,7 +54,7 @@ namespace Manager.Domain.Entities
                 foreach (var error in  validation.Errors)
                 _errors.Add(error.ErrorMessage);
 
-                throw new DomainExeception("Alguns campos estão invalidos, por favor corrija-os!" , _errors);
+                throw new DomainException("Alguns campos estão invalidos, por favor corrija-os!" , _errors);
             }
 
             return true;
