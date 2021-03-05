@@ -24,8 +24,8 @@ namespace Manager.Domain.Validators
                .MinimumLength(3)
                .WithMessage("O nome deve ter no minimo 3 caracteres.")
 
-               .MaximumLength(90)
-               .WithMessage("O nome deve ter no maximo 90 caracteres");
+               .MaximumLength(80)
+               .WithMessage("O nome deve ter no maximo 80 caracteres");
 
             RuleFor(x => x.Email)
                .NotNull()
@@ -53,8 +53,8 @@ namespace Manager.Domain.Validators
                .MinimumLength(5)
                .WithMessage("A senha deve ter no minimo 5 caracteres")
 
-               .MaximumLength(15)
-               .WithMessage("A senha deve ter no maximo 15 caracteres.");   
+               .MaximumLength(30)
+               .WithMessage("A senha deve ter no maximo 30 caracteres.");   
         }
     }
 }
