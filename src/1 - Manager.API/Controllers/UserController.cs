@@ -8,6 +8,7 @@ using Manager.API.ViewModels;
 using Manager.Core.Exceptions;
 using Manager.Services.DTO;
 using Manager.Services.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Manager.API.Controllers
@@ -26,7 +27,7 @@ namespace Manager.API.Controllers
         }
 
         [HttpPost]
-        //[Authorize]
+        [Authorize]
         [Route("/api/v1/users/create")]
         public async Task<IActionResult> Create([FromBody] CreateUserViewModel userViewModel)
         {
@@ -57,7 +58,7 @@ namespace Manager.API.Controllers
 
 
         [HttpPut]
-        //[Authorize]
+        [Authorize]
         [Route("/api/v1/users/update")]
         public async Task<IActionResult> Update([FromBody] UpdatedViewModel userViewModel)
         {
@@ -84,7 +85,7 @@ namespace Manager.API.Controllers
         }
 
         [HttpDelete]
-        //[Authorize]
+        [Authorize]
         [Route("/api/v1/users/remove/{id}")]
         public async Task<IActionResult> Remove(long id)
         {
@@ -110,7 +111,7 @@ namespace Manager.API.Controllers
         }
 
         [HttpGet]
-        //[Authorize]
+        [Authorize]
         [Route("/api/v1/users/get-user/{id}")]
         public async Task<IActionResult> Get(long id)
         {
@@ -145,7 +146,7 @@ namespace Manager.API.Controllers
         }
 
         [HttpGet]
-        // [Authorize]
+        [Authorize]
         [Route("/api/v1/users/get-all")]
         public async Task<IActionResult> Get()
         {
@@ -172,7 +173,7 @@ namespace Manager.API.Controllers
 
 
         [HttpGet]
-        //[Authorize]
+        [Authorize]
         [Route("/api/v1/users/obter-por-email")]
         public async Task<IActionResult> ProcurarPorEmail([FromQuery] string email)
         {
@@ -208,7 +209,7 @@ namespace Manager.API.Controllers
 
 
         [HttpGet]
-        //[Authorize]
+        [Authorize]
         [Route("/api/v1/users/pesquisa-por-email")]
         public async Task<IActionResult> PesquisaPorEmail([FromQuery] string email)
         {
@@ -245,7 +246,7 @@ namespace Manager.API.Controllers
         }
 
         [HttpGet]
-        //[Authorize]
+        [Authorize]
         [Route("/api/v1/users/procurar-nome")]
         public async Task<IActionResult> ProcurarByNome([FromQuery] string nome)
         {
