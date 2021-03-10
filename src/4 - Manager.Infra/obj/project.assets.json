@@ -84,7 +84,7 @@
           "Microsoft.EntityFrameworkCore.Relational": "3.1.12"
         },
         "compile": {
-          "lib/netstandard2.0/_._": {}
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.dll": {}
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.dll": {}
@@ -1009,11 +1009,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bebev\\OneDrive\\Área de Trabalho\\Manager\\src\\4 - Manager.Infra\\Manager.Infra.csproj",
+      "projectUniqueName": "C:\\Users\\bebev\\OneDrive\\Área de Trabalho\\API_Rest-.NET-Core\\src\\4 - Manager.Infra\\Manager.Infra.csproj",
       "projectName": "Manager.Infra",
-      "projectPath": "C:\\Users\\bebev\\OneDrive\\Área de Trabalho\\Manager\\src\\4 - Manager.Infra\\Manager.Infra.csproj",
+      "projectPath": "C:\\Users\\bebev\\OneDrive\\Área de Trabalho\\API_Rest-.NET-Core\\src\\4 - Manager.Infra\\Manager.Infra.csproj",
       "packagesPath": "C:\\Users\\bebev\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bebev\\OneDrive\\Área de Trabalho\\Manager\\src\\4 - Manager.Infra\\obj\\",
+      "outputPath": "C:\\Users\\bebev\\OneDrive\\Área de Trabalho\\API_Rest-.NET-Core\\src\\4 - Manager.Infra\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -1033,8 +1033,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\bebev\\OneDrive\\Área de Trabalho\\Manager\\src\\2 - Manager.Domain\\Manager.Domain.csproj": {
-              "projectPath": "C:\\Users\\bebev\\OneDrive\\Área de Trabalho\\Manager\\src\\2 - Manager.Domain\\Manager.Domain.csproj"
+            "C:\\Users\\bebev\\OneDrive\\Área de Trabalho\\API_Rest-.NET-Core\\src\\2 - Manager.Domain\\Manager.Domain.csproj": {
+              "projectPath": "C:\\Users\\bebev\\OneDrive\\Área de Trabalho\\API_Rest-.NET-Core\\src\\2 - Manager.Domain\\Manager.Domain.csproj"
             }
           }
         }
@@ -1053,8 +1053,6 @@
             "version": "[3.1.12, )"
           },
           "Microsoft.EntityFrameworkCore.Design": {
-            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-            "suppressParent": "All",
             "target": "Package",
             "version": "[3.1.12, )"
           },

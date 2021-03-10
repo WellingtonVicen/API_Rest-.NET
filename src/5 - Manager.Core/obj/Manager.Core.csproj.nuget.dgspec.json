@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bebev\\OneDrive\\Área de Trabalho\\Manager\\src\\5 - Manager.Core\\Manager.Core.csproj": {}
+    "C:\\Users\\bebev\\OneDrive\\Área de Trabalho\\API_Rest-.NET-Core\\src\\5 - Manager.Core\\Manager.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bebev\\OneDrive\\Área de Trabalho\\Manager\\src\\5 - Manager.Core\\Manager.Core.csproj": {
+    "C:\\Users\\bebev\\OneDrive\\Área de Trabalho\\API_Rest-.NET-Core\\src\\5 - Manager.Core\\Manager.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bebev\\OneDrive\\Área de Trabalho\\Manager\\src\\5 - Manager.Core\\Manager.Core.csproj",
+        "projectUniqueName": "C:\\Users\\bebev\\OneDrive\\Área de Trabalho\\API_Rest-.NET-Core\\src\\5 - Manager.Core\\Manager.Core.csproj",
         "projectName": "Manager.Core",
-        "projectPath": "C:\\Users\\bebev\\OneDrive\\Área de Trabalho\\Manager\\src\\5 - Manager.Core\\Manager.Core.csproj",
+        "projectPath": "C:\\Users\\bebev\\OneDrive\\Área de Trabalho\\API_Rest-.NET-Core\\src\\5 - Manager.Core\\Manager.Core.csproj",
         "packagesPath": "C:\\Users\\bebev\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bebev\\OneDrive\\Área de Trabalho\\Manager\\src\\5 - Manager.Core\\obj\\",
+        "outputPath": "C:\\Users\\bebev\\OneDrive\\Área de Trabalho\\API_Rest-.NET-Core\\src\\5 - Manager.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

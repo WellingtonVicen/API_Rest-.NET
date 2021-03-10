@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1XOTHjF88NejnUnZudixdVtBrASCqguIPTVoWBvfrZZolcIkzSpo4iWTNCh/bGgHC+Wt8ak+422u6ZgBQnSubw==",
+  "dgSpecHash": "kJqZzklXVxRwSmoFi8Ejw6TrTG1OSgoWrEsXODPa3Mw9FKD3Ntr+0BoI7Q2hseJQE/fov8snuC+HR+n+ew2+gg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\bebev\\OneDrive\\Área de Trabalho\\Manager\\src\\4 - Manager.Infra\\Manager.Infra.csproj",
+  "projectFilePath": "C:\\Users\\bebev\\OneDrive\\Área de Trabalho\\API_Rest-.NET-Core\\src\\4 - Manager.Infra\\Manager.Infra.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bebev\\.nuget\\packages\\fluentvalidation\\9.5.1\\fluentvalidation.9.5.1.nupkg.sha512",
     "C:\\Users\\bebev\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

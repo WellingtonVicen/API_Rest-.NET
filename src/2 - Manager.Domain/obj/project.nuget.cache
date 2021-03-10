@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PexcC7o7IuVd04P1L9nJxDwveLjOx1bB9csN/1CGyIYJGdGIeO+cYtC9zXPBogz3pvY60vfzYzn/X9zf5p+vNg==",
+  "dgSpecHash": "XQqVSS4s+v9F7TFV55vFS4CNmrbitk02Wij4DdceY74hKy3Bxf5IcB0UOZYP2vYSQnVL/Gbr22cf9RzTreCoEQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\bebev\\OneDrive\\Área de Trabalho\\Manager\\src\\2 - Manager.Domain\\Manager.Domain.csproj",
+  "projectFilePath": "C:\\Users\\bebev\\OneDrive\\Área de Trabalho\\API_Rest-.NET-Core\\src\\2 - Manager.Domain\\Manager.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bebev\\.nuget\\packages\\fluentvalidation\\9.5.1\\fluentvalidation.9.5.1.nupkg.sha512",
     "C:\\Users\\bebev\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",

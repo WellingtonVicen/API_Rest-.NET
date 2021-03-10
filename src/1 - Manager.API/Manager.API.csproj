@@ -4,5 +4,22 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="Microsoft.OpenApi" Version="1.2.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\2 - Manager.Domain\Manager.Domain.csproj" />
+    <ProjectReference Include="..\3 - Manager.Services\Manager.Services.csproj" />
+    <ProjectReference Include="..\4 - Manager.Infra\Manager.Infra.csproj" />
+    <ProjectReference Include="..\5 - Manager.Core\Manager.Core.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <GenerateBindingRedirectsOutputType>true</GenerateBindingRedirectsOutputType>
+</PropertyGroup>
 
 </Project>

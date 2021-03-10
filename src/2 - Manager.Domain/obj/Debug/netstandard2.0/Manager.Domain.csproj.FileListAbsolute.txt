@@ -19,3 +19,15 @@ C:\Users\bebev\OneDrive\Área de Trabalho\Manager\src\2 - Manager.Domain\obj\Deb
 C:\Users\bebev\OneDrive\Área de Trabalho\Manager\src\2 - Manager.Domain\obj\Debug\netstandard2.0\Manager.Domain.csproj.CopyComplete
 C:\Users\bebev\OneDrive\Área de Trabalho\Manager\src\2 - Manager.Domain\obj\Debug\netstandard2.0\Manager.Domain.dll
 C:\Users\bebev\OneDrive\Área de Trabalho\Manager\src\2 - Manager.Domain\obj\Debug\netstandard2.0\Manager.Domain.pdb
+C:\Users\bebev\OneDrive\Área de Trabalho\API_Rest-.NET-Core\src\2 - Manager.Domain\bin\Debug\netstandard2.0\Manager.Domain.deps.json
+C:\Users\bebev\OneDrive\Área de Trabalho\API_Rest-.NET-Core\src\2 - Manager.Domain\bin\Debug\netstandard2.0\Manager.Domain.dll
+C:\Users\bebev\OneDrive\Área de Trabalho\API_Rest-.NET-Core\src\2 - Manager.Domain\bin\Debug\netstandard2.0\Manager.Domain.pdb
+C:\Users\bebev\OneDrive\Área de Trabalho\API_Rest-.NET-Core\src\2 - Manager.Domain\bin\Debug\netstandard2.0\Manager.Core.dll
+C:\Users\bebev\OneDrive\Área de Trabalho\API_Rest-.NET-Core\src\2 - Manager.Domain\bin\Debug\netstandard2.0\Manager.Core.pdb
+C:\Users\bebev\OneDrive\Área de Trabalho\API_Rest-.NET-Core\src\2 - Manager.Domain\obj\Debug\netstandard2.0\Manager.Domain.csprojAssemblyReference.cache
+C:\Users\bebev\OneDrive\Área de Trabalho\API_Rest-.NET-Core\src\2 - Manager.Domain\obj\Debug\netstandard2.0\Manager.Domain.AssemblyInfoInputs.cache
+C:\Users\bebev\OneDrive\Área de Trabalho\API_Rest-.NET-Core\src\2 - Manager.Domain\obj\Debug\netstandard2.0\Manager.Domain.AssemblyInfo.cs
+C:\Users\bebev\OneDrive\Área de Trabalho\API_Rest-.NET-Core\src\2 - Manager.Domain\obj\Debug\netstandard2.0\Manager.Domain.csproj.CoreCompileInputs.cache
+C:\Users\bebev\OneDrive\Área de Trabalho\API_Rest-.NET-Core\src\2 - Manager.Domain\obj\Debug\netstandard2.0\Manager.Domain.csproj.CopyComplete
+C:\Users\bebev\OneDrive\Área de Trabalho\API_Rest-.NET-Core\src\2 - Manager.Domain\obj\Debug\netstandard2.0\Manager.Domain.dll
+C:\Users\bebev\OneDrive\Área de Trabalho\API_Rest-.NET-Core\src\2 - Manager.Domain\obj\Debug\netstandard2.0\Manager.Domain.pdb

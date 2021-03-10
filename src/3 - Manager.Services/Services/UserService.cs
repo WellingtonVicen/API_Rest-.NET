@@ -58,7 +58,7 @@ namespace Manager.Services.Services
             return _mapper.Map<List<UserDTO>>(allUsers);
         }
 
-        public async Task<UserDTO> GetUser(long id)
+        public async Task<UserDTO> Get(long id)
         {
             var user = await _userRepository.Get(id);
 
@@ -67,7 +67,13 @@ namespace Manager.Services.Services
 
         public async Task Remove(long id)
         {
-            await _userRepository.Remove(id);
+
+            var userExists = await _userRepository.Get(id);
+
+            if (userExists != null)
+                await _userRepository.Remove(id);
+            else
+                throw new DomainException("ID não Encontrado");
         }
         public async Task<List<UserDTO>> SearchByNome(string nome)
         {
@@ -92,4 +98,6 @@ namespace Manager.Services.Services
 
 
     }
+
+
 }

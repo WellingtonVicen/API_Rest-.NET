@@ -16,7 +16,8 @@ namespace Manager.API.ViewModels
         [Required(ErrorMessage = "O email nao pode estar vazio.")]
         [MinLength(10, ErrorMessage = "O email deve ter no minimo 10 caracteres.")]
         [MaxLength(180, ErrorMessage = "O email deve ter no maximo 180 caracteres")]
-        [RegularExpression(@"^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$")]
+        [RegularExpression(@"^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$", 
+                ErrorMessage = "Email Invalido")]
         public string Email { get; set; }
 
         [Required(ErrorMessage = "A senha não pode estar vazia.")]

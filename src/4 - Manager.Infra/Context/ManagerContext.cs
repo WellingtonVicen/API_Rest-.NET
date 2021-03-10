@@ -14,10 +14,6 @@ namespace Manager.Infra.Context
 
         public virtual DbSet<User> Users { get; set; }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            optionsBuilder.UseMySql(@"Server=localhost;Port=3306;Database=usermanagerapi;Uid=root;Pwd=porpeta12;");
-        }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {

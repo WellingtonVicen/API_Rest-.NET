@@ -1,16 +1,14 @@
-using System;
 using System.Linq;
-using System.Threading.Tasks;
-using Manager.Infra.Interfaces;
 using Manager.Infra.Context;
+using System.Threading.Tasks;
 using Manager.Domain.Entities;
-using System.Collections.Generic;
+using Manager.Infra.Interfaces;
 using Microsoft.EntityFrameworkCore;
-
+using System.Collections.Generic;
 
 namespace Manager.Infra.Repositories
 {
-    public class BaseRepository<T> : IBaseRepository<T>  where T : Base
+    public class BaseRepository<T> : IBaseRepository<T> where T : Base
     {
         private readonly ManagerContext _context;
 
@@ -49,23 +47,23 @@ namespace Manager.Infra.Repositories
         public virtual async Task<T> Get(long id)
         {
             var obj = await _context.Set<T>()
-                                       .AsNoTracking()
-                                       .Where(x => x.Id == id)
-                                       .ToListAsync();
+                                    .AsNoTracking()
+                                    .Where(x => x.Id == id)
+                                    .ToListAsync();
 
             return obj.FirstOrDefault();
         }
 
         public virtual async Task<List<T>> Get()
         {
-             return await _context.Set<T>()
-                                   .AsNoTracking()
-                                   .ToListAsync();
+            return await _context.Set<T>()
+                                 .AsNoTracking()
+                                 .ToListAsync();
         }
 
-        Task<T> IBaseRepository<T>.Remove(long id)
+        public Task Removee(long id)
         {
-            throw new NotImplementedException();
+            throw new System.NotImplementedException();
         }
     }
 }

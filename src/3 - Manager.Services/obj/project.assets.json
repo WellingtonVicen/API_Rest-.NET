@@ -90,10 +90,26 @@
           "lib/netstandard2.0/_._": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Relational/3.1.0": {
+      "Microsoft.EntityFrameworkCore.Design/3.1.12": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "3.1.0"
+          "Microsoft.CSharp": "4.7.0",
+          "Microsoft.EntityFrameworkCore.Relational": "3.1.12"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.dll": {}
+        },
+        "build": {
+          "build/netcoreapp2.0/_._": {}
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Relational/3.1.12": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "3.1.12"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.dll": {}
@@ -343,6 +359,7 @@
         "dependencies": {
           "Manager.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "3.1.12",
+          "Microsoft.EntityFrameworkCore.Design": "3.1.12",
           "Pomelo.EntityFrameworkCore.MySql": "3.1.0"
         },
         "compile": {
@@ -553,18 +570,34 @@
         "microsoft.entityframeworkcore.analyzers.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Relational/3.1.0": {
-      "sha512": "eeiqVqzXVuwQsUbqXMyXSEUn/EHB9zmDsr5f/+v6uEt0ir7pgItuIi3I7QV4xvM/s0KbFsqGUOrAFPeRHE3plg==",
+    "Microsoft.EntityFrameworkCore.Design/3.1.12": {
+      "sha512": "sRpSIIVpP4ZZSvaYqaN3mWpD1dXPKLyT8xVCKZQ3OAswzxwn/NNg9XrVs6fU0yHbPDPeolvgoiXoHhb0fzB94Q==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.relational/3.1.0",
+      "path": "microsoft.entityframeworkcore.design/3.1.12",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "Icon.png",
+        "build/net461/Microsoft.EntityFrameworkCore.Design.props",
+        "build/netcoreapp2.0/Microsoft.EntityFrameworkCore.Design.props",
+        "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.dll",
+        "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.xml",
+        "microsoft.entityframeworkcore.design.3.1.12.nupkg.sha512",
+        "microsoft.entityframeworkcore.design.nuspec"
+      ]
+    },
+    "Microsoft.EntityFrameworkCore.Relational/3.1.12": {
+      "sha512": "jauM73UEOy3B5bil2/1HDiz7lO00d7nkIrYDWe/WIc+pW0NIz0lC3AgyirjbuoIB0k3PyHBeszChPAGRrIH2fA==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.relational/3.1.12",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.dll",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.xml",
-        "microsoft.entityframeworkcore.relational.3.1.0.nupkg.sha512",
-        "microsoft.entityframeworkcore.relational.nuspec",
-        "packageIcon.png"
+        "microsoft.entityframeworkcore.relational.3.1.12.nupkg.sha512",
+        "microsoft.entityframeworkcore.relational.nuspec"
       ]
     },
     "Microsoft.Extensions.Caching.Abstractions/3.1.12": {
@@ -1052,11 +1085,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bebev\\OneDrive\\Área de Trabalho\\Manager\\src\\3 - Manager.Services\\Manager.Services.csproj",
+      "projectUniqueName": "C:\\Users\\bebev\\OneDrive\\Área de Trabalho\\API_Rest-.NET-Core\\src\\3 - Manager.Services\\Manager.Services.csproj",
       "projectName": "Manager.Services",
-      "projectPath": "C:\\Users\\bebev\\OneDrive\\Área de Trabalho\\Manager\\src\\3 - Manager.Services\\Manager.Services.csproj",
+      "projectPath": "C:\\Users\\bebev\\OneDrive\\Área de Trabalho\\API_Rest-.NET-Core\\src\\3 - Manager.Services\\Manager.Services.csproj",
       "packagesPath": "C:\\Users\\bebev\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bebev\\OneDrive\\Área de Trabalho\\Manager\\src\\3 - Manager.Services\\obj\\",
+      "outputPath": "C:\\Users\\bebev\\OneDrive\\Área de Trabalho\\API_Rest-.NET-Core\\src\\3 - Manager.Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -1076,14 +1109,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\bebev\\OneDrive\\Área de Trabalho\\Manager\\src\\2 - Manager.Domain\\Manager.Domain.csproj": {
-              "projectPath": "C:\\Users\\bebev\\OneDrive\\Área de Trabalho\\Manager\\src\\2 - Manager.Domain\\Manager.Domain.csproj"
+            "C:\\Users\\bebev\\OneDrive\\Área de Trabalho\\API_Rest-.NET-Core\\src\\2 - Manager.Domain\\Manager.Domain.csproj": {
+              "projectPath": "C:\\Users\\bebev\\OneDrive\\Área de Trabalho\\API_Rest-.NET-Core\\src\\2 - Manager.Domain\\Manager.Domain.csproj"
             },
-            "C:\\Users\\bebev\\OneDrive\\Área de Trabalho\\Manager\\src\\4 - Manager.Infra\\Manager.Infra.csproj": {
-              "projectPath": "C:\\Users\\bebev\\OneDrive\\Área de Trabalho\\Manager\\src\\4 - Manager.Infra\\Manager.Infra.csproj"
+            "C:\\Users\\bebev\\OneDrive\\Área de Trabalho\\API_Rest-.NET-Core\\src\\4 - Manager.Infra\\Manager.Infra.csproj": {
+              "projectPath": "C:\\Users\\bebev\\OneDrive\\Área de Trabalho\\API_Rest-.NET-Core\\src\\4 - Manager.Infra\\Manager.Infra.csproj"
             },
-            "C:\\Users\\bebev\\OneDrive\\Área de Trabalho\\Manager\\src\\5 - Manager.Core\\Manager.Core.csproj": {
-              "projectPath": "C:\\Users\\bebev\\OneDrive\\Área de Trabalho\\Manager\\src\\5 - Manager.Core\\Manager.Core.csproj"
+            "C:\\Users\\bebev\\OneDrive\\Área de Trabalho\\API_Rest-.NET-Core\\src\\5 - Manager.Core\\Manager.Core.csproj": {
+              "projectPath": "C:\\Users\\bebev\\OneDrive\\Área de Trabalho\\API_Rest-.NET-Core\\src\\5 - Manager.Core\\Manager.Core.csproj"
             }
           }
         }
